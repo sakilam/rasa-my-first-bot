@@ -7,9 +7,14 @@ intents:
   - mood_unhappy
   - bot_challenge
   - hello_world
+  - search_restaurant
+
+entities:
+  - hotel
 
 actions:
   - action_hello_world
+  - action_search_restaurant
 
 responses:
   utter_greet:

@@ -33,3 +33,7 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+
+## search restaurant path
+* search_restaurant
+  - action_search_restaurant

@@ -59,3 +59,9 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:search_restaurant
+- show me [indian](hotel) restaurant
+- show me [chinese](hotel) restaurant
+- show me [thai](hotel) restaurant
+- show me [italian](hotel) restaurant
