@@ -49,4 +49,6 @@
   - utter_enter_country
 * country_entry
   - utter_show_name_country
-  - utter_goodbye  
+  - action_name_country
+  - utter_show_name_country_custom
+  - utter_goodbye

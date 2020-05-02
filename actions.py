@@ -12,6 +12,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import requests
+from rasa_sdk.events import SlotSet
 #
 #
 # class ActionHelloWorld(Action):
@@ -97,3 +98,22 @@ class ActionCoronaTracker(Action):
          dispatcher.utter_message(text=message)
 
          return []
+
+class ActionNameCountry(Action):
+
+     def name(self) -> Text:
+         return "action_name_country"
+
+     def run(self, dispatcher: CollectingDispatcher,
+             tracker: Tracker,
+             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+         name = tracker.get_slot("name")
+         country = tracker.get_slot("country")
+         leader_name = "{} & {}".format(name, country)
+
+         message = "Your name is {} and belongs to {}. This message is from custom actions.".format(name, country)
+
+         dispatcher.utter_message(text=message)
+
+         return [SlotSet("leader", leader_name)]

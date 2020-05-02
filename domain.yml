@@ -16,6 +16,7 @@ actions:
   - action_hello_world
   - action_search_restaurant
   - action_corona_tracker
+  - action_name_country
 
 entities:
   - hotel
@@ -28,6 +29,8 @@ slots:
     type: text
   country:
     type: text
+  leader:
+    type: text  
 
 responses:
   utter_greet:
@@ -48,6 +51,9 @@ responses:
 
   utter_happy:
   - text: "Great, carry on!"
+
+  utter_show_name_country_custom:
+    - text: "Your name is {name} and belongs to {country}. This message is from custom actions {leader}"
 
   utter_goodbye:
   - text: "Bye"
