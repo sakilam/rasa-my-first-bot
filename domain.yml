@@ -8,13 +8,16 @@ intents:
   - bot_challenge
   - hello_world
   - search_restaurant
-
-entities:
-  - hotel
+  - corona_state
 
 actions:
   - action_hello_world
   - action_search_restaurant
+  - action_corona_tracker
+
+entities:
+  - hotel
+  - state
 
 responses:
   utter_greet:

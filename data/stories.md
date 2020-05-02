@@ -37,3 +37,7 @@
 ## search restaurant path
 * search_restaurant
   - action_search_restaurant
+
+## corona tracker path
+* corona_state
+  - action_corona_tracker

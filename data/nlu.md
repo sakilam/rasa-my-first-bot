@@ -65,3 +65,16 @@
 - show me [chinese](hotel) restaurant
 - show me [thai](hotel) restaurant
 - show me [italian](hotel) restaurant
+
+## intent:corona_state
+- [india](state)
+- [telangana](state)
+- [karnataka](state)
+- [andhra pradesh](state)
+- [bihar](state)
+- [delhi](state)
+- [punjab](state)
+- [west bengal](state)
+- [odisha](state)
+- [assam](state)
+- [goa](state)
