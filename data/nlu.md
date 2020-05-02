@@ -6,6 +6,11 @@
 - good evening
 - hey there
 
+## intent:hello_world
+- world
+- programming
+- first program
+
 ## intent:goodbye
 - bye
 - goodbye
