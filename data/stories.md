@@ -6,7 +6,7 @@
 
 ## hello world path
 * hello_world
-  - utter_hello_world
+  - action_hello_world
 
 ## sad path 1
 * greet
