@@ -78,3 +78,26 @@
 - [odisha](state)
 - [assam](state)
 - [goa](state)
+
+## intent:name_entry
+- my name is [Sandeep](name)
+- myself [sandeep](name)
+- my name is [Sakilam](name)
+- myself [sakilam](name)
+- I am [Sandeep](name)
+- I am [sakilam](name)
+- name is [Sakilam](name)
+- name is [sandeep](name)
+
+## intent:country_entry
+- [India](country)
+- [US](country)
+- [UK](country)
+- [Finland](country)
+- [Germany](country)
+- [Candana](country)
+- [Russia](country)
+- [Japan](country)
+- [China](country)
+- [Malasia](country)
+- [Singapore](country)

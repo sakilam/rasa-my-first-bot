@@ -9,6 +9,8 @@ intents:
   - hello_world
   - search_restaurant
   - corona_state
+  - name_entry
+  - country_entry
 
 actions:
   - action_hello_world
@@ -18,10 +20,24 @@ actions:
 entities:
   - hotel
   - state
+  - name
+  - country
+
+slots:
+  name:
+    type: text
+  country:
+    type: text
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Please give me your name?"
+
+  utter_enter_country:
+  - text: "Please enter your country name"
+
+  utter_show_name_country:
+  - text: "Your name is {name} and belongs to {country}"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
